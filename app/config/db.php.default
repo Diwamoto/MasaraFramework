@@ -1,7 +1,10 @@
 <?php
-$config['database'] = [
-	'host'		=> '',
-	'user'		=> '',
-	'password'	=> '',
-	'db'		=> ''
-];
+$config->set([
+	'database' => [
+		'engine'	=> 'mysql',
+		'host'		=> '',
+		'user'		=> '',
+		'password'	=> '',
+		'db'		=> ''
+	]
+]);
