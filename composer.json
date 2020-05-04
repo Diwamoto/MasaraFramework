@@ -1,0 +1,28 @@
+{
+    "name": "diwamoto/masaraframework",
+    "description": "masara PHP framework",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "mvc",
+        "easy",
+        "practice"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daiki Iwamoto",
+            "email": "daiki.work.0118@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Masara\\": "lib/",
+          "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.0"
+    }
+
+}

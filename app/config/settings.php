@@ -1,0 +1,4 @@
+<?php
+$config->set([
+	'setting' => []
+]);

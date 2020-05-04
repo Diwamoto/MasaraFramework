@@ -1,0 +1,14 @@
+.vscode/*
+assets/uploads/*
+config/db.php
+vender/*
+composer.lock
+
+html/node_modules
+html/package-lock.json
+html/css/*
+!html/css/.gitkeep
+html/js/*
+!html/js/.gitkeep
+html/sass/*
+!html/sass/.gitkeep
